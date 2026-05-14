@@ -1,0 +1,12 @@
+在placement exam 10里面，最后一道题会用到动态规划处理进而降低复杂度，这个文件是Pro Tay补充讲解的有关动态规划的课件，还有1道补充练习，题目如下
+Assignments by Wednesday 2pm: Dynamic Programming Problem - Minimum Number of Coins
+A small vending machine accepts only four types of coins {2-cent coin, 3-cent coin, 4-cent coin, 5-cent coin}. A customer wants to buy an item costing 16 cents.
+Your task is to write a program using the dynamic programming  method to determine the minimum number of coins needed to make exactly 16 cents using the given coin denominations {2, 3, 4, 5}.
+Your program should print out the minimum number of coins required, and the set of the actual coins used.
+ 
+Once this is done, modify your program to print out multiple solutions: {2,4,5,5},
+{5,4,4,3}, {4,4,4,4}, {5,5,3,3}.
+ 
+Do not print repeated permutations: e.g., {5,3,5,3} is same as {3,5,3,5} and {5,5,3,3} and so on.
+ 
+To avoid duplicate permutations (e.g., {5, 3, 5, 3} versus {3, 5, 5, 3}), you can enforce an ordering rule, i.e., always choose coins in non-decreasing order value. This portion will be easier if it is recursive.
